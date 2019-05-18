@@ -1,0 +1,101 @@
+
+/*  slides  */
+section .galeria {
+  width: auto;
+	height: auto;
+ 
+  overflow: hidden;
+  display: flex;
+}
+
+section .foto {
+ width: auto;
+	height: auto;
+  position: absolute;
+  opacity: 0;
+  animation-name: animacao;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+nav{
+	width: auto;
+	height: auto;
+}
+header {
+ 
+  width: auto;
+  height: auto;
+  background-size: cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -ms-background-size:cover;
+  -o-background-size:cover;
+  margin: 0;
+  padding: 0;
+}
+
+/* animaçao */
+/*
+li a:hover {
+	color: black;
+	background-color: #76B39D;
+	transition: 3s;
+}
+*/
+main{
+	width: 90%;
+	display: none;
+	margin:0 !important;
+	//display:flex;
+	align-items: center;
+	justify-content: center;
+}
+.f{
+		width: auto;
+		height: auto;
+}
+#text{
+margin: 20px;
+display: none;
+flex-direction:column;
+text-align: justify;
+padding: 50px;
+
+}
+
+footer {
+    margin-top: 2%;
+    width: 100%;
+    height: 120px;
+    
+    background-color: brown;
+}
+
+table img{
+	width:300px;
+	height: 200px;
+	margin:25px;
+	border: 4px solid #6a0000;
+	border-radius:15px;
+	
+	float: left;
+}
+table{
+	width: 115%;
+	align-items:center;
+	justify-content:center;
+	
+}
+.bot-header,.bot-main{
+	border: solid black;
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height:100%;
+	
+}
